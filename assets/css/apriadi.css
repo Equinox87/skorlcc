@@ -1,0 +1,79 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.apri-contain {
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.apri-contain ul {
+	list-style-type: none;
+}
+
+.apri-contain ul li {
+	display: inline;
+
+}
+
+apri {
+	font-size: 50px;
+}
+
+.team-a {
+	background-color: #e74c3c;
+}
+
+.team-b {
+	background-color: #f1c40f;
+}
+
+.team-c {
+	background-color: #2ecc71;
+}
+
+.team-d {
+	background-color: #3498db;
+}
+
+.skor {
+	font-size: 80px;
+}
+
+.sekolah {
+	font-size: 18px;
+}
+
+.apri-form {
+	font-size: 12px;
+}
+
+.container-soal {
+	display: table;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 30px;
+
+}
+
+.container-soal button {
+	font-size: 30px;
+
+}
+
+.history {
+	margin: 0 auto;
+	float: none;
+	display: block;
+	font-size: 15px;
+	margin-top: 80px;
+	max-width: 600px;
+	overflow-y: scroll;
+	padding-bottom: 50px;
+}
+
+body {
+	background: url('../..//assets/img/seamless.png') repeat;
+}

@@ -1,0 +1,175 @@
+/* 
+
+CSS MODIFIED BY APRI 
+
+*/
+
+.say_img img{
+    max-width: 75px;
+}
+
+.apriloader{
+	position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:#fff;
+    z-index: 9999;
+}
+
+.form-divider{
+    display: block;
+    float:left;
+    width:100%;
+    margin-bottom:10px;
+}
+
+.buttonapri{
+    background: rgba(0, 0, 0, 0.25);
+
+}
+
+.spare-divider{
+    
+    clear:both;
+}
+
+.spare-container{
+    padding:0px 5px !important;
+    margin-bottom:10px;
+}
+
+.spare-image{
+    border:1px solid #DDDDDD;
+}
+.sparepart-list{
+    display: block;
+    float:left;
+    padding:10px;
+    
+}
+
+.spare-detail{
+    border:1px solid #DDDDDD;
+    border-top:none;
+    float:left;
+    display:block;
+    width:100%;
+    /*padding: 10px;*/
+}
+.spare-detail .title{
+    color: #324545;
+    font-weight: bold;
+    line-height: 15px;
+    margin:0px !important;
+    padding:15px 10px;
+    text-align: center;
+}
+
+.spare-detail .harga{
+    margin:0px !important;
+    font-size: 15px;
+    color: #CF000F;
+    font-weight: bold;
+    float: left;
+    display: inline-block;
+    padding: 10px 0px 10px 10px;
+    width: 50%;
+    border-top: 1px solid #DDDDDD;
+    border-right: 1px solid #DDDDDD;
+}
+
+.spare-detail .stok{
+    margin:0px !important;
+    float: left;
+    display: inline-block;
+    padding: 10px 0px 10px 10px;
+    width: 50%;
+    border-top: 1px solid #DDDDDD;
+}
+
+.no-pad-left{
+    padding-left:0px !important;
+}
+.filter-sidebar-container{
+    background-color: rgba(207,0,15,0.8);
+    /*box-shadow: 2px 0px 2px #888888;*/
+    padding-bottom:20px;
+     height: 100%;
+}
+
+.filter-sidebar{
+    display: block;
+    float:left;
+    margin-top: 20px;
+    margin-left:10px;
+    color:white;
+    
+
+}
+
+
+
+.apriloader .loader{
+	position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 35%;
+    padding: 0;
+
+}
+
+.loader{
+	padding:0 10px;
+}
+
+.loader img{
+	width:200px;
+	
+}
+
+.spare-image img{
+    max-height:200px;
+    display:block;
+    margin:0 auto;
+}
+
+.content-sparepart{
+    width:100%;
+    float:left;
+    display:block;
+    position: relative;
+}
+
+.copy-logo{
+    font-size: 35px;vertical-align: top;margin-right:10px;
+}
+
+.copy-text{
+    font-size:35px;vertical-align: bottom;
+}
+
+/* START MEDIA QUERIES */
+/* Mobile portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+  .footer_copy_text{
+    text-align: justify !important;
+  }
+
+  .copy-text{
+    font-size:20px !important;
+  }
+
+  .copy-logo{
+    font-size:20px !important;
+  }
+
+  .telephone{
+    float:left !important;
+  }
+}

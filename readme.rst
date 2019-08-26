@@ -1,4 +1,16 @@
 ###################
+Readme !
+###################
+
+1. Rubah nama folder menjadi skorlcc
+2. Copy folder tersebut kedalam htdocs
+3. Jalankan Apache & MySQL pada XAMPP
+4. Buka browser, ketikan di address bar : localhost/skorlcc
+5. Selamat Menggunakan.
+
+
+
+###################
 What is CodeIgniter
 ###################
 
